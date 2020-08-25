@@ -14,6 +14,12 @@ export interface Links {
   wikipedia: string;
 }
 
+export interface ITableHeader {
+  name: string;
+  field: string;
+  sortable: boolean;
+}
+
 export interface HistoryState {
   readonly loading: boolean;
   readonly data: History[];
